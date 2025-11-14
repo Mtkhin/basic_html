@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Styled Profile</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #f0f4f8; 
+      color: #333;
+      padding-bottom: 40px;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0077c8, #0099ff);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      margin-bottom: 30px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.4em;
+      letter-spacing: 1px;
+    }
+
+    .profile-image {
+      display: block;
+      margin: -60px auto 20px; 
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 6px solid white;
+      object-fit: cover;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    }
+
+    section {
+      width: 90%;
+      max-width: 700px;
+      background: white;
+      margin: 20px auto;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    section h2 {
+      color: #0077c8;
+      margin-top: 0;
+    }
+
+    ul {
+      line-height: 1.8;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+      font-size: 1em;
+    }
+
+    th {
+      background: #e9f6ff;
+      color: #0077c8;
+      padding: 10px;
+    }
+
+    td {
+      padding: 10px;
+      border-bottom: 1px solid #eee;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>May Thu Khin</h1>
+  </header>
+
+  <img src="Public/images/img01.png" alt="My Photo" class="profile-image">
+
+  <section>
+    <h2>About Me</h2>
+    <p>
+      Hello! I’m <strong>May Thu Khin</strong>, a passionate UI/UX designer who loves
+      blending creativity with logic to create delightful and meaningful
+      digital experiences.
+    </p>
+  </section>
+
+  <section>
+    <h2>My Hobbies</h2>
+    <ul>
+      <li>Creating digital designs</li>
+      <li>Listening to music</li>
+      <li>Learning design tools</li>
+      <li>Exploring new ideas</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>My Core Skills</h2>
+    <table>
+      <tr>
+        <th>Skill</th>
+        <th>Level</th>
+      </tr>
+      <tr>
+        <td>UI/UX Design</td>
+        <td>★★★★★</td>
+      </tr>
+      <tr>
+        <td>Figma</td>
+        <td>★★★★★</td>
+      </tr>
+      <tr>
+        <td>HTML</td>
+        <td>★★★★☆</td>
+      </tr>
+      <tr>
+        <td>Photoshop / Illustrator</td>
+        <td>★★★★☆</td>
+      </tr>
+    </table>
+  </section>
+
+</body>
+</html>
